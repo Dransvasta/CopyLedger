@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copyledger - Smart Notes App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <img src="a-logo-of-the-letter-c-in-black-and-whit_ybqedaK_SN6zIN6i6i2vDA_LEAyaswPTDOVieJY8_SEEA.jpeg" alt="Copyledger Logo" class="app-logo"> 
+            <button id="newNoteBtn" class="btn new-note-btn">+ New Note</button>
+            <div id="notesList" class="notes-list"></div>
+        </div>
+        <div class="main-content">
+            <div id="noteContainer" class="note-container">
+                <div class="note-header">
+                    <input type="text" id="noteTitle" class="note-title" placeholder="Untitled Note">
+                    <div class="note-actions">
+                        <button id="deleteNote" class="btn delete-btn">Delete</button>
+                    </div>
+                </div>
+                <div id="subnotesContainer" class="subnotes-container"></div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
